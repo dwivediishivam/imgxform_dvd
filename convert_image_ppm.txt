@@ -1,0 +1,5 @@
+python3 - <<'PY'
+from PIL import Image
+Image.open("input.jpg").convert("RGB").save("output.ppm", "PPM")
+print("Wrote output.ppm")
+PY
